@@ -1,0 +1,16 @@
+
+p {
+    color:purple
+} 
+h1 {
+    color: red;
+}
+span {
+    color: green;
+}
+.faltante {
+    color: blue;
+}
+#ingrediente-secreto {
+    color: orange;
+}
