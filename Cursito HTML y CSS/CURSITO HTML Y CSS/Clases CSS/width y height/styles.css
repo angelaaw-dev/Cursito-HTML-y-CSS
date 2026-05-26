@@ -1,0 +1,17 @@
+div {
+    background: purple;
+    width: 600px;
+    height: 200px;
+}
+
+h1 {
+    background: red;
+}
+
+input {
+    width: 90%;
+}
+
+form {
+    width: 300px;
+}

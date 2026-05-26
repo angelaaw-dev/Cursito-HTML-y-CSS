@@ -1,0 +1,42 @@
+<!--CSS no existe sin HTML.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enlazando CSS y Selectores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Ingredientes</h1>
+
+    <!-- <p style="color: red; font-size: 20px;">Este es un párrafo con estilos en línea.</p> Esto no es correcto de hacer, pero es para mostrar la diferencia entre estilos en línea y estilos externos. -->
+     
+    <p>Este es un párrafo de ejemplo para mostrar cómo enlazar un archivo CSS externo.</p>
+
+    <!--
+    <style>
+        p {
+            color:blue
+        } 
+        h1 {
+            color: green;
+        }
+    </style>
+    -->
+
+    <!--Primero se usa un selector (p o h1) para seleccionar el elemento al que se le va a aplicar el estilo, luego se abren llaves y dentro de ellas se ponen las propiedades y valores que se quieren aplicar a ese elemento.-->
+
+    <!-- Aún así no es recomendada ninguna de las dos opciones-->
+    <!-- La mejor opción es usar la etiqueta "link" que se suele poner en el head con el atributo "rel" y "href" -->
+
+    <ul>
+        <li>Una taza de <span>Harina</span></li> <!--El span es un elemento en línea que se usa para aplicar estilos a una parte del texto dentro de un elemento bloque como el li.-->
+        <li class="faltante">Azúcar</li>
+        <li>Huevos</li>
+        <li class="faltante">Leche</li>
+        <li id="ingrediente-secreto">Esencia de vainilla</li>
+    </ul>
+    <!-- El "." se usa para seleccionar la clase y el "#" para seleccionar el id. La clase se usa para muchos elementos, mientras que el id se usa para un elemento específico. -->
+</body>
+</html>

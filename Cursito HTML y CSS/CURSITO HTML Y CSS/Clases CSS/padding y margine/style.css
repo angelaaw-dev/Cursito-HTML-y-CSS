@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+.formulario {
+    background: skyblue;
+    padding: 30px;
+}
+
+.formulario_input {
+    padding: 9px 12px;
+    width: 90%;
+    background: black;
+    color: skyblue;
+    margin: 6px; 
+}
+
+.formulario_submit {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    background: skyblue;
+    color: white;
+    width: 50%;
+}
+
+.box1 {
+    background: purple;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 50px;
+}
+
+.box2 {
+    background: green;
+    height: 150px;
+    width: 150px;
+    margin-top: 30px;
+}
